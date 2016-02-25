@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+        <!--Footable-->
+
+
+        <title>Inventory System</title>
+
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/core.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/components.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/pages.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    
+       
+     
+     
+        <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    
+          <script src="assets/js/jquery.min.js"></script>
+
+    </head>
+
+
+    <body class="">
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            <!-- Top Bar Start -->
+            <div class="topbar">
+
+                <!-- LOGO -->
+                <div class="topbar-left">
+                    <div class="text-center">
+                        <a href="index.html" class="logo"><i class="icon-magnet icon-c-logo"></i><span>Invent<i class="md md-album"></i>ry System</span></a>
+                    </div>
+                </div>
+
+                <!-- Button mobile view to collapse sidebar menu -->
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <div class="">
+                           
+
+                            <ul class="nav navbar-nav navbar-right pull-right">
+                               
+                               
+
+
+                             <li class="hidden-xs">
+                                  
+
+
+                                    <a href="#" id="btn-fullscreen" class="waves-effect waves-light"><i class="icon-size-fullscreen"></i></a>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true"><img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
+                                    <ul class="dropdown-menu">
+                                     
+
+                                      <li><a href="http://logout"><i class="ti-power-off m-r-5"></i> Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/.nav-collapse -->
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+
+             <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="content-page" style="margin-left:0px;">
+                <!-- Start content -->
+                <div class="content">
+                    <div class="container">
+                        <!-- Page-Title -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="page-title">Admin Panel</h4>
+                                
+
+                                <ol class="breadcrumb">
+                                  <li>
+                                    <a href="admin_homepage.html">Home</a>
+                                  </li>
+                                    
+                                  <li>
+                                    <a href="search_for_write.html">Look Up</a>
+                                  </li>
+
+                                  <li> Item Details </li>
+                                 
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+                            <div  class="col-sm-12 text-center widget-bg-color-icon card-box fadeInDown animated"> 
+                                <br>
+                                <h1>Item Details</h1>
+                                <hr>
+
+                                <div class="text-center">
+                                    <img  src="http://work.ayyazzafar.com/inventory_system/assets/uploads/1872f7f6bb6ecc630bf1d2ecc5a45408.png" class="thumbnail img-responsive" style="display:inline-block;" />
+                                </div>
+                                <ul class="list-group text-left">
+
+                                    <li class="list-group-item">
+                                        <strong> Status: </strong> <span id="status">-</span><br>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Serial Number:</strong> <span id="sn">-</span><br>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Make:</strong> <span id="make">-</span><br>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Model:</strong> <span id="model">-</span><br>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Item Type:</strong> <span id="itemType">-</span><br>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Department:</strong> <span id="department">-</span><br>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Building:</strong> <span id="building">-</span><br>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Permanent:</strong> <span id="permanent">-</span><br>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Rented:</strong> <span id="rented">-</span><br>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Due Back:</strong> <span id="dueBack">-</span><br>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Support Page:</strong> <a href="" target="_blank"  id="supportPage">-</a><br>
+                                    </li>
+                                     <li class="list-group-item">
+                                        <strong>Technical Contact:</strong> <span id="technicalContact">-</span><br>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <strong>Email:</strong> <span id="email">-</span><br>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <strong>Warranty Expiry:</strong> <span id="warrantyExpiry">-</span><br>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <strong>Broken:</strong> <span id="broken">-</span><br>
+                                    </li>
+                                </ul>
+                                <br><br>
+                            </div>
+                           
+
+                          
+                        </div>
+
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <footer class="footer text-right container" style="width:95%; margin:0px; margin:auto; position:relative; left:auto; right:auto; top:auto; bottom:auto;">
+                    2016 © Ubold.
+                </footer>
+
+            </div>
+
+
+            <!-- ============================================================== -->
+            <!-- End Right content here -->
+            <!-- ============================================================== -->
+
+
+           
+
+        </div>
+        <!-- END wrapper -->
+
+
+
+        <script>
+            var resizefunc = [];
+        </script>
+
+        <!-- jQuery  -->
+      
+        <script src="assets/js/bootstrap.min.js"></script>
+      
+        <script src="assets/js/jquery.core.js"></script>
+
+       
+        <script type="text/javascript">
+        // function to retrieve query string variables
+        function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+
+
+            $(window).ready(function(){
+                var sn = getParameterByName('sn');
+                $.ajax({
+                    data:{sn:sn},
+                    type:"POST",
+                    url:"http://work.ayyazzafar.com/inventory_system/mobile/get_item"
+                }).done(function(response){
+                    if(response.status=="1")
+                    {
+                        var item = response.response;
+                        var status;
+                        var permanent;
+                        var rented;
+                        var broken;
+
+                        if(item.status=="1")
+                        {
+                            status="Active";
+                        }
+                        else
+                        {
+                            status = "Disabled";
+                        }
+
+                        $("#status").html(status);
+                        $("#sn").html(item.sn);
+                        $("#make").html(item.make);
+                        $("#model").html(item.model);
+                        $("#itemType").html(item.itemType);
+                        $("#department").html(item.department);
+                        $("#building").html(item.building);
+
+                        if(item.permanent=="1")
+                        {
+                            permanent = "Yes";
+                        }
+                        else
+                        {
+                            permanent = "No";
+                        }
+
+                        $("#permanent").html(permanent);
+
+                        if(item.rented=="1")
+                        {
+                            rented = "Yes";
+                        }
+                        else
+                        {
+                            rented = "No";
+                        }
+
+                        $("#rented").html(rented);
+                        $("#dueBack").html(item.dueBack);
+                        $("#supportPage").html(item.supportPage);
+                        $("#supportPage").attr("href", item.supportPage);
+                        $("#technicalContact").html(item.technicalContact);
+                        $("#email").html(item.email);
+                        $("#warrantyExpiry").html(item.warrantyExpiry);
+
+                        if(item.broken=="1")
+                        {
+                            broken = "Yes";
+                        }
+                        else
+                        {
+                            broken = "No";
+                        }
+
+                        $("#broken").html(broken);
+                    }    
+                });
+            });
+        </script>
+     
+    </body>
+</html>

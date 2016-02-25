@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.example.nfc"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.example.nfc"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.example.nfc"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.example.nfc"
+        },
+        "phonegap-nfc": {
+            "PACKAGE_NAME": "com.example.nfc"
+        }
+    },
+    "dependent_plugins": {}
+}
